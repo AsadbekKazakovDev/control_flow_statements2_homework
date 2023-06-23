@@ -8,4 +8,13 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    m=a
+    if m>b:
+        m=b
+    if m>c:
+        m=c
+    return m
+a,b,c = 470,60,89
+print(main(a,b,c))
+a,b,c = -87,-45,97
+print(main(a,b,c))
