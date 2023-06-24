@@ -14,5 +14,5 @@ def main(a,b,c):
     if m<c:
         m=c
     return m
-a,b,c = 4,6 , 8
+a,b,c = 4,6,8
 print(main(a,b,c))
