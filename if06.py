@@ -24,7 +24,7 @@ def main(n):
     if mx==f:
         md+=5
     return md
-n = 12345
+n = 12348
 print(main(n))
 n=32897
 print(main(n))
